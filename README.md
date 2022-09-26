@@ -9,7 +9,7 @@
 | auth/signup           | POST   | 200                 | User signup                           |
 | auth/login            | POST   | 200 +Object user    | User login                            |
 | user/logout           | GET    | 200                 | User logout                           |
-| user/delete           | POST   | 200                 | User gets deleted                     |
+| user/delete/:id       | POST   | 200                 | User gets deleted                     |
 | user/profile/:id      | GET    | 200 +Object user    | User sees its own profile             |
 | user/profile/edit/:id | POST   | 200                 | User edit its own profile             |
 | trip/all              | GET    | 200 +Array of trips | User(driver) sees all available trips |
