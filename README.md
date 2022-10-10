@@ -28,15 +28,24 @@ LOOK AT THE PROJECT
 | PATH                  | DESCRIPTION                                                         |
 | --------------------- | ------------------------------------------------------------------- |
 | /                     | Home page                                                           |
+|                       | User homepage, navigate() => depends on user role(client or driver) |
+|                       | if Driver list of trips                                             |
+|                       | if Client map + newTrip button                                      |
 | /signup               | Signup form                                                         |
 | /login                | Login form                                                          |
 | /user/profile/:userid | Show profile details of user                                        |
 | /user/edit/:userid    | Edit user form where user can delete or edit its own profile        |
-| /user/home            | User homepage, navigate() => depends on user role(client or driver) |
-|                       | if Driver list of trips                                             |
-|                       | if Client map + newTrip button                                      |
 | /user/trip/:tripid    | Trip data, conditional rendering if client or driver                |
 
 #### Components list
 
 TODO
+
+- navbar
+- map
+- tripList
+- signup form
+- login form
+- tripCard
+- spinner
+- modal Forms
