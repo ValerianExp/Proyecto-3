@@ -14,8 +14,8 @@
 | user/profile/edit/:id | POST   | 200                 | User edit its own profile             |
 | trip/all              | GET    | 200 +Array of trips | User(driver) sees all available trips |
 | trip/new              | POST   | 200                 | User(client) creates a new trip       |
-| trip/:id/driver       | GET    | 200 + trip details  | Trip has a new driver                 |
-| trip/:id/finished     | GET    | 200                 | Trip is finished                      |
+| trip/:id/driver       | PUT    | 200 + trip details  | Trip has a new driver                 |
+| trip/:id/finished     | PUT    | 200                 | Trip is finished                      |
 
 #### Models
 
